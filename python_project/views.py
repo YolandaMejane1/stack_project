@@ -4,4 +4,4 @@ from django.shortcuts import render
 # request handler
 
 def myapp(request):
-    return render(request, 'main.html')
+    return render(request, 'main.html',  {'name': 'Yolanda Mejane'})
